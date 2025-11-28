@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Development Studio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,sans-serif;background:#000;color:#fff}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:40px 20px;background:linear-gradient(135deg,#0a0a0a,#1a1a2e)}
+.badge{padding:8px 20px;background:rgba(0,217,255,0.1);border:1px solid rgba(0,217,255,0.3);border-radius:50px;font-size:0.85rem;color:#00d9ff;margin-bottom:30px}
+h1{font-size:3.5rem;font-weight:800;margin-bottom:20px;background:linear-gradient(135deg,#fff,#00d9ff,#8a2be2);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.subtitle{font-size:1.3rem;color:#8892b0;margin-bottom:40px;max-width:600px;line-height:1.6}
+.btn{padding:16px 36px;border-radius:12px;font-size:1rem;font-weight:600;cursor:pointer;text-decoration:none;background:linear-gradient(135deg,#00d9ff,#0099cc);color:#000;border:none;display:inline-block}
+.btn:hover{transform:translateY(-3px);box-shadow:0 20px 40px rgba(0,217,255,0.3)}
+.services{padding:100px 20px;background:#0a0a0f}
+.container{max-width:1100px;margin:0 auto}
+.section-title{text-align:center;margin-bottom:60px}
+.section-title h2{font-size:2.5rem;margin-bottom:15px}
+.section-title p{color:#8892b0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px}
+.card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);border-radius:20px;padding:40px;transition:all 0.3s}
+.card:hover{transform:translateY(-5px);border-color:rgba(0,217,255,0.3)}
+.card-icon{font-size:3rem;margin-bottom:20px}
+.card h3{font-size:1.4rem;margin-bottom:15px}
+.card p{color:#8892b0;line-height:1.7}
+.contact{padding:100px 20px;background:#0f0f1a;text-align:center}
+.contact h2{font-size:2.5rem;margin-bottom:20px}
+.contact p{color:#8892b0;margin-bottom:30px}
+.contact a{color:#00d9ff;font-size:1.3rem;text-decoration:none}
+footer{padding:40px;text-align:center;color:#555;border-top:1px solid rgba(255,255,255,0.05)}
+</style>
+</head>
+<body>
+<section class="hero">
+<div class="badge">CUSTOM APP DEVELOPMENT</div>
+<h1>We Build Apps That Solve Real Problems</h1>
+<p class="subtitle">From concept to launch, we create mobile and web applications that help businesses automate, scale, and succeed.</p>
+<a href="#contact" class="btn">Start Your Project</a>
+</section>
+<section class="services">
+<div class="container">
+<div class="section-title"><h2>What We Build</h2><p>End-to-end development for your digital needs</p></div>
+<div class="grid">
+<div class="card"><div class="card-icon">📱</div><h3>Mobile Apps</h3><p>Native and cross-platform mobile applications for iOS and Android.</p></div>
+<div class="card"><div class="card-icon">🌐</div><h3>Web Applications</h3><p>Powerful web apps with modern frameworks and real-time features.</p></div>
+<div class="card"><div class="card-icon">🤖</div><h3>Automation Tools</h3><p>Custom automation solutions that save time and reduce errors.</p></div>
+<div class="card"><div class="card-icon">🔗</div><h3>API Integrations</h3><p>Connect your systems with third-party services and platforms.</p></div>
+<div class="card"><div class="card-icon">☁️</div><h3>Cloud Solutions</h3><p>Scalable infrastructure that grows with your business.</p></div>
+<div class="card"><div class="card-icon">📊</div><h3>Dashboards</h3><p>Beautiful dashboards that turn data into insights.</p></div>
+</div>
+</div>
+</section>
+<section class="contact" id="contact">
+<div class="container">
+<h2>Lets Build Something</h2>
+<p>Have an idea? Lets talk about bringing it to life.</p>
+<a href="mailto:hello@example.com">hello@example.com</a>
+</div>
+</section>
+<footer><p>2025 App Development Studio. All rights reserved.</p></footer>
+</body>
+</html>
